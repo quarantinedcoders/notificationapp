@@ -1,2 +1,1 @@
-# notificationapp
-Notification App
+# notificationApp
