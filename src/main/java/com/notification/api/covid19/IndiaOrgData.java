@@ -58,6 +58,7 @@ public class IndiaOrgData {
 		private String lastupdatedtime;
 		private String recovered;
 		private String state;
+		private String statecode;
 	}
 
 	@Getter
