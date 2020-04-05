@@ -1,0 +1,10 @@
+.no-topics-found {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;    
+}
+
+.load-more-topics {
+    text-align: center;
+    margin-bottom: 40px;    
+}
