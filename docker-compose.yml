@@ -23,7 +23,7 @@ services:
       context: notificationAppClient # Use an image built from the specified dockerfile in the `polling-app-client` directory.
       dockerfile: Dockerfile
       args:
-        REACT_APP_API_BASE_URL: http://192.168.99.100:8080/api
+        REACT_APP_API_BASE_URL: http://54.69.34.188:8080/api #ec2-54-69-34-188.us-west-2.compute.amazonaws.com, 192.168.99.100:8080
     ports:
       - "9090:80" # Forward the exposed port 80 on the container to port 80 on the host machine
     restart: always
